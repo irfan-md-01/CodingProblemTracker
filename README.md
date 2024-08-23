@@ -9,7 +9,7 @@ to log coding problems, add notes, track progress over time, and visualize stati
 * Challenge Corner: Add, edit, and delete coding problems with ease.
 * Notes Section: Link notes to specific problems, including code snippets and thought processes.
 * Progress Tracking: Track the number of problems solved per day/week, with detailed statistics.
-* Data Visualization: Visual insights through charts showing progress trends, difficulty distribution, and category-based problem-solving.
+* Data Visualization: Visual insights through charts showing progress trends, difficulty distribution, and topic-based problem-solving.
 
 ## Technologies Used
 * Programming Languages: Python
