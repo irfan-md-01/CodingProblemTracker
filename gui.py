@@ -380,7 +380,8 @@ class ProblemTracker(Tk):
     def search_tab2(self):
         text = self.search_entryKey.get().lower() 
         if(len(text)!=0):
-            candidates = [problem for problem in self.db.get_all_problems() if text in problem[0].lower()]    #list of tuples
+            # candidates = [problem for problem in self.db.get_all_problems() if text in problem[0].lower()]    #list of tuples
+            candidates = self.db.semantic_search() 
             self.update_problemTable(candidates,True) 
         else:
             self.load_problems(self.problemTable2)
@@ -501,3 +502,4 @@ class ProblemTracker(Tk):
         self.root.quit()  # Quit the main loop 
 
             
+
